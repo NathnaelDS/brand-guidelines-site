@@ -1,0 +1,15 @@
+{
+  "name": "kestrel-tea-brand-site",
+  "private": true,
+  "type": "module",
+  "description": "Static website for the Kestrel Tea brand guidelines and design system, generated from ../BRAND.md and ../DESIGN.md.",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "python3 -m http.server 4173 --directory dist"
+  },
+  "dependencies": {
+    "@google/design.md": "0.4.0",
+    "js-yaml": "^4.1.0",
+    "marked": "^14.1.4"
+  }
+}
